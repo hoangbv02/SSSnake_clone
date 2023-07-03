@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e4a3ca2338a6a438399e77d5204e84, type: 3}
+  m_Name: ChapterScriptable
+  m_EditorClassIdentifier: 
+  chapters:
+  - levels:
+    - enemyPrefabs:
+      - {fileID: 8216113291738856300, guid: b6a2396e22ef6324db70af48d16603c1, type: 3}
+      numberEnemy: 5
+      timeSpawn: 5
+    - enemyPrefabs:
+      - {fileID: 8216113291738856300, guid: b6a2396e22ef6324db70af48d16603c1, type: 3}
+      numberEnemy: 8
+      timeSpawn: 3
+    - enemyPrefabs:
+      - {fileID: 8216113291738856300, guid: b6a2396e22ef6324db70af48d16603c1, type: 3}
+      numberEnemy: 12
+      timeSpawn: 2
+    - enemyPrefabs:
+      - {fileID: 8216113291738856300, guid: b6a2396e22ef6324db70af48d16603c1, type: 3}
+      - {fileID: 1479374492260586339, guid: 79a0177495befe841940c3e979135491, type: 3}
+      numberEnemy: 8
+      timeSpawn: 3
+    - enemyPrefabs:
+      - {fileID: 8216113291738856300, guid: b6a2396e22ef6324db70af48d16603c1, type: 3}
+      - {fileID: 1479374492260586339, guid: 79a0177495befe841940c3e979135491, type: 3}
+      numberEnemy: 12
+      timeSpawn: 3
+  - levels:
+    - enemyPrefabs:
+      - {fileID: 8216113291738856300, guid: b6a2396e22ef6324db70af48d16603c1, type: 3}
+      - {fileID: 5339668454713216734, guid: 83d4d88a90dc9584d82ed7bc187fde9d, type: 3}
+      numberEnemy: 3
+      timeSpawn: 5
+    - enemyPrefabs:
+      - {fileID: 8216113291738856300, guid: b6a2396e22ef6324db70af48d16603c1, type: 3}
+      - {fileID: 5339668454713216734, guid: 83d4d88a90dc9584d82ed7bc187fde9d, type: 3}
+      numberEnemy: 5
+      timeSpawn: 4
+    - enemyPrefabs:
+      - {fileID: 8216113291738856300, guid: b6a2396e22ef6324db70af48d16603c1, type: 3}
+      - {fileID: 1479374492260586339, guid: 79a0177495befe841940c3e979135491, type: 3}
+      - {fileID: 5339668454713216734, guid: 83d4d88a90dc9584d82ed7bc187fde9d, type: 3}
+      numberEnemy: 8
+      timeSpawn: 2
+    - enemyPrefabs:
+      - {fileID: 8216113291738856300, guid: b6a2396e22ef6324db70af48d16603c1, type: 3}
+      - {fileID: 1479374492260586339, guid: 79a0177495befe841940c3e979135491, type: 3}
+      - {fileID: 5339668454713216734, guid: 83d4d88a90dc9584d82ed7bc187fde9d, type: 3}
+      numberEnemy: 10
+      timeSpawn: 2
+    - enemyPrefabs:
+      - {fileID: 8216113291738856300, guid: b6a2396e22ef6324db70af48d16603c1, type: 3}
+      - {fileID: 5339668454713216734, guid: 83d4d88a90dc9584d82ed7bc187fde9d, type: 3}
+      - {fileID: 1479374492260586339, guid: 79a0177495befe841940c3e979135491, type: 3}
+      numberEnemy: 15
+      timeSpawn: 2
+  powerupPrefabs:
+  - {fileID: 4220712561510132977, guid: 671cdb96fd6e73c45a07e86a71c0a830, type: 3}
+  - {fileID: 8283560357269895871, guid: f6454f4fb13ef4047936798cc5f8ad90, type: 3}
